@@ -1,0 +1,288 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #3e3e3e;
+  
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: orange;
+}
+
+.header__nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.header__icons span {
+  font-size: 14px;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: left;
+}
+
+.hero__image {
+  width: 20%;
+  height: auto;
+}
+
+.hero__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #3e3e3e;
+}
+
+.hero__content h1 {
+  font-size: 36px;
+}
+
+.hero__content p {
+  font-size: 18px;
+}
+
+.hero__button {
+  background-color: #d77b3b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Smoothie Section */
+.smoothie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.smoothie__text {
+  max-width: 50%;
+}
+
+.smoothie__text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.smoothie__text p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.smoothie__button {
+  background-color: #d77b3b;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.smoothie__image {
+  max-width: 40%;
+  border-radius: 15px;
+}
+
+/* Continuará en la segunda parte */
+/* Chef Section */
+.chef {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.chef__text {
+  max-width: 50%;
+}
+
+.chef__text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.chef__text p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.chef__button {
+  background-color: #d77b3b;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.chef__image {
+  max-width: 40%;
+  border-radius: 15px;
+}
+
+/* Seasonal Smoothie Section */
+.seasonal-smoothie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.seasonal-smoothie__text {
+  max-width: 50%;
+}
+
+.seasonal-smoothie__text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.seasonal-smoothie__text p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.seasonal-smoothie__button {
+  background-color: #d77b3b;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.seasonal-smoothie__image {
+  max-width: 40%;
+  border-radius: 15px;
+}
+
+.seasonal-smoothie__sidebar {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.seasonal-smoothie__sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.seasonal-smoothie__sidebar ul {
+  list-style: none;
+}
+
+.seasonal-smoothie__sidebar li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Membership Section */
+.membership {
+  text-align: center;
+  padding: 50px;
+  background-color: #f1f1f1;
+}
+
+.membership h2 {
+  font-size: 36px;
+}
+
+.membership p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.membership__button {
+  background-color: #d77b3b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #3e3e3e;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer__section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer__section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #dcdcdc;
+}
+
+.footer__section p,
+.footer__section li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #b8b8b8;
+}
+
+.footer__section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer__form button {
+  background-color: #d77b3b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer__form button:hover {
+  background-color: #b9652e;
+}
