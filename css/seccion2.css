@@ -1,0 +1,45 @@
+.smoothie__box{
+  display: flex;
+  padding: 50px;
+  height: 100vh;
+  justify-content: center;
+
+}
+.smoothie__element{
+ display: flex;
+ background-color: #fff;
+ height: 50%;
+ width: 40%;
+ border-radius: 80px;
+ overflow: hidden;
+ box-shadow: -20px 0px 40px -25px #000;
+}
+.smoothie__text {
+ align-items: center;
+ padding: 50px;
+
+}
+
+.smoothie__text h1{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.smoothie__text p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  
+}
+
+.smoothie__button {
+  background-color: #b68e76;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.smoothie__image {
+
+}

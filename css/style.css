@@ -1,9 +1,16 @@
+@import url(seccion2.css);
+
+
+
 /* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+}
+body{
+  background-color: #f1e8e3;
 }
 
 /* Header */
@@ -78,39 +85,6 @@
 }
 
 /* Smoothie Section */
-.smoothie {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px;
-}
-
-.smoothie__text {
-  max-width: 50%;
-}
-
-.smoothie__text h2 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-.smoothie__text p {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.smoothie__button {
-  background-color: #d77b3b;
-  color: white;
-  border: none;
-  padding: 8px 15px;
-  cursor: pointer;
-}
-
-.smoothie__image {
-  max-width: 40%;
-  border-radius: 15px;
-}
 
 /* Continuará en la segunda parte */
 /* Chef Section */
