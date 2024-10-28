@@ -1,4 +1,6 @@
 @import url(seccion2.css);
+@import url(curso-propietes.css);
+
 
 
 
@@ -52,6 +54,7 @@ body{
 .hero {
   position: relative;
   text-align: left;
+  
 }
 
 .hero__image {

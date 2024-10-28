@@ -1,3 +1,6 @@
+@import url(curso-propietes.css);
+
+/* section 2  */
 .smoothie__box{
   display: flex;
   padding: 50px;
@@ -39,3 +42,15 @@
   padding: 8px 15px;
   cursor: pointer;
 }
+
+
+/* section 3  */
+
+.fruit__box {
+ background-image: var(--img1);
+ width: 100%;
+}
+.fruit__element{
+  
+}
+.fruit__elemet-text{}
