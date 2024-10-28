@@ -20,6 +20,7 @@
   align-items: center;
   padding: 20px;
   background-color: #3e3e3e;
+box-shadow: 0 0 50px 0 #000;
   
 }
 
@@ -273,63 +274,130 @@
 
 /* Footer */
 .footer {
+  display: grid;
+  grid-area: footer;
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  padding: 20px;
   background-color: #3e3e3e;
-  color: #fff;
-  padding: 30px 20px;
-  text-align: center;
+  box-shadow: 10px 0 20px 0 #000;
 }
 
 .footer__content {
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 
-.footer__section {
-  flex: 1;
-  min-width: 200px;
-  margin: 10px;
+.footer__section span {
+  font-size: 14px;
+  padding-top: 10px ;
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+  color: white;
+}
+.footer__menu{
+  width: 20%;
+  display: flex;
+ flex-direction: row;
+  align-items: start;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.footer__icons-icons{
+  display: flex;
+  flex-direction:column ;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 20%;
+  color: #000;
+}
+.footer__menu-li{
+  width: 20%;
+  display: flex;
+ flex-direction: row;
+  align-items: start;
+  text-decoration: none;
+  padding-top: 50px;
 }
 
 .footer__section h4 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #dcdcdc;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: orange;
 }
 
-.footer__section p,
+
+
+
+.footer__section span,
 .footer__section li {
   font-size: 14px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: #b8b8b8;
+  text-decoration: none;
 }
 
-.footer__section ul {
+.footer__menu ul {
   list-style: none;
   padding: 0;
 }
 
+.footer__section-sing{
+  width: 50%;
+  display: flex;
+ flex-direction: column;
+ justify-content: end;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 10px;
+  margin-left: 50%;
+
+
+}
+
+.footer__section-sing h7{
+  color: orange;
+  font-size: 40px;
+  
+}
 .footer__form {
   display: flex;
+  width: 30%;
   flex-direction: column;
-  align-items: center;
+
+  
 }
 
 .footer__form input {
   padding: 10px;
   margin-bottom: 10px;
-  width: 80%;
-  max-width: 300px;
+  width: 100%;
+  max-width: 1200px;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .footer__form button {
   background-color: #d77b3b;
   color: white;
+  width: 100%;
   border: none;
+  border-radius: 20px;
   padding: 10px 20px;
-  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
