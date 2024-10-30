@@ -1,4 +1,11 @@
 :root{
 
-  --img1:url(..img/fondo3.png);
+  /* colores */
+  --color__principal:#f1e8e3;
+  --color1:#fff;
+
+
+ 
+
+  --img_tres:url(../img/fondo3.png);
 }
