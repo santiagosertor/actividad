@@ -62,8 +62,10 @@
 
 .fruit__box {
   grid-area: fruit;
- height: 100vh;  
- background-image: url(/img/fondo3.png);
+  height: 100vh;  
+  background-image: url(/img/fondo3.png);
+  background-repeat: no-repeat;
+  object-fit: contain;
  
 }
 .fruit__element{
