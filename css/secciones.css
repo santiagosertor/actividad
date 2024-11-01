@@ -7,17 +7,19 @@
   padding: 50px;
   height: 100vh;
   justify-content: center;
+  margin-top: 80px;
 
 
 }
 .smoothie__element{
  display: flex;
  background-color: var(--color1);
- height: 50%;
+ height: 80%;
  width: 50%;
  border-radius: 80px;
  overflow: hidden;
  box-shadow: -20px 0px 40px -25px #000;
+ justify-content: center;
 }
 .smoothie__texts {
  align-items: center;
@@ -27,22 +29,34 @@
 
 .smoothie__text-one{
   font-size: 28px;
-  margin-bottom: 10px;
+  color: #1A1A1A;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 7px;
 }
 
 .smoothie__text-two {
   font-size: 25px;
   margin-bottom: 10px;
-  color: #1A1A1A;
+  font-weight: 10;
   
 }
-.smoothie__text-three{ 
+.smoothie__text-p{
+  font-size: 10px;
+}
+.smoothie__box-texts{
+  align-items: center;
+  
+}
+.smoothie__box-one{ 
   font-size: 25px;
   color: #b68e76;
   margin: auto;
+  padding-bottom: 10px;
 }
-.smoothie__text-four{
-  font-size: 10px;
+.smoothie__box-two{
+  font-size: 15px;
+  margin-left: 10px;
+  
 
 }
 
@@ -54,8 +68,10 @@
   border-radius: 10px;
   padding: 8px 15px;
   cursor: pointer;
+  margin-top: 6px;
   
 }
+
 
 
 /* section 3  */
@@ -65,22 +81,113 @@
   height: 100vh;  
   background-image: url(/img/fondo3.png);
   background-repeat: no-repeat;
-  object-fit: contain;
+  background-size: cover;
+  width: 80%;  
  
 }
-.fruit__element{
+.fruit__elemet{
+  margin-top: 20%;
+  left: 50%;
+  top: 50%;
+  
+}
  
-  
-}
-.fruit__img-principal{
-  /* max-width: 100%; */
-  
-  
-}
 .fruit__elemet-text{
- position: absolute;
+ position: relative;
+ color: #1A1A1A;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ left: 50%;
+ font-size: 20px;
+ 
+}
+.fruit__elemet-two{
 
+  font-size: 20px;
+  left: 50%;
+  position: relative;
+  margin-top: 10px;
 }
 .fruit__buttons {
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  left: 10%;   
+  display: flex;
+  
 
+}
+.fruit__button-one{
+  
+  color: #000;
+  background-color: #fff;
+  border: none;
+  height: 25px ;
+  width: 100px;
+  border-radius: 20px 20px 20px 20px;
+  margin-bottom: 10px;
+}
+.fruit__button-two{
+  color: #000;
+  background-color: #fff;
+  border: none;
+  height: 25px ;
+  width: 100px;
+ 
+  border-radius: 20px 20px 20px 20px;
+  
+}
+.fruit__button-three{
+  background-color:#b68e76;
+  color: white;
+  border: none;
+  padding: 10px 20px;    
+  cursor: pointer;
+  margin-top: 10px;
+  margin: auto;
+  padding-bottom: 15px;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 10px;
+    
+}
+.fruit-last__text{
+  font-size: 10px;
+  
+  
+}
+
+/* seccion 4  */
+.smoothie-green__box{
+  grid-area: smoothie-green;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.smoothie-green__element{
+  background-color: #fff;
+  display: flex;
+  width: 50%;
+  height: 40%;
+
+}
+.smoothie-green__img{
+ width: 100px;
+ 
+}
+
+ /* seccion 5  */
+.sugar__box{
+  grid-area: sugar;
+  padding: 50px;
+  margin-top: 20px;
+  height: 100vh;
+  background-image: url(/img/fondo5.png);
+  background-size: cover;
+}
+.chef__box{
+  grid-area: chef;
+  padding: 50px;
+  margin-top: 20px;
+  display: flex;
+  
 }
