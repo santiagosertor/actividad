@@ -14,8 +14,8 @@
 .smoothie__element{
  display: flex;
  background-color: var(--color1);
- height: 80%;
- width: 50%;
+ height: 50%;
+ width: 40%;
  border-radius: 80px;
  overflow: hidden;
  box-shadow: -20px 0px 40px -25px #000;
@@ -81,15 +81,16 @@
   height: 100vh;  
   background-image: url(/img/fondo3.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 80%;  
+  background-size: contain;
+  width: 100%;  
  
 }
 .fruit__elemet{
   margin-top: 20%;
   left: 50%;
   top: 50%;
-  
+  width: 30%;
+  margin-left: 35%;
 }
  
 .fruit__elemet-text{
@@ -97,7 +98,8 @@
  color: #1A1A1A;
  font-family: Georgia, 'Times New Roman', Times, serif;
  left: 50%;
- font-size: 20px;
+ font-size: 30px;
+ font-weight: bold;
  
 }
 .fruit__elemet-two{
@@ -106,14 +108,15 @@
   left: 50%;
   position: relative;
   margin-top: 10px;
+  width: 50%;
 }
 .fruit__buttons {
   align-items: center;
   flex-direction: column;
   position: relative;
-  left: 10%;   
+  left:30% ;
   display: flex;
-  
+  padding-top: 30px;
 
 }
 .fruit__button-one{
@@ -122,17 +125,24 @@
   background-color: #fff;
   border: none;
   height: 25px ;
-  width: 100px;
+  width: 50%;
   border-radius: 20px 20px 20px 20px;
   margin-bottom: 10px;
+
+}
+.fruit__button-text{
+  
+  text-align: start ;
+  padding-left: 10px;
+  font-weight: bold;
+  
 }
 .fruit__button-two{
   color: #000;
   background-color: #fff;
   border: none;
   height: 25px ;
-  width: 100px;
- 
+  width: 50%;
   border-radius: 20px 20px 20px 20px;
   
 }
@@ -147,11 +157,16 @@
   padding-bottom: 15px;
   border-radius: 20px 20px 20px 20px;
   margin-top: 10px;
+  height: 35px ;
+  width: 50%;
+ font-weight: bold;
     
 }
 .fruit-last__text{
   font-size: 10px;
-  
+  width: 50%;
+  margin-left: 30px;
+  padding-top: 10px;
   
 }
 
@@ -161,18 +176,89 @@
   padding: 50px;
   display: flex;
   justify-content: center;
+  height: 100vh;
+   
+  
 }
 
 .smoothie-green__element{
-  background-color: #fff;
+  background-color: #3a3a3a;
   display: flex;
-  width: 50%;
-  height: 40%;
+  color: #fff;
+  width: 40%;
+  height: 65%;
+  overflow: hidden;
+  border-radius: 80px;
+ box-shadow: -20px 0px 40px -25px #000;
+ justify-content: center;
+  margin-top: 10%;
+
 
 }
 .smoothie-green__img{
- width: 100px;
- 
+ width:50%;
+ height: 100%;
+ position: relative;
+ margin-right: 30%;
+}
+.smoothie-green__texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  
+  width: 100%;
+  
+}
+.smoothie-green__text-secundario{
+  padding-left: 10px;
+}
+.smoothie-green__text-one{
+  font-size: 30px;
+  font-weight: 100; 
+}
+.smoothie-green__text-two{
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+.smoothie-green__text-three{
+ font-weight: 100;
+ display: flex;
+ justify-content: space-between;
+  
+}
+.smoothie-green__text-three-text{
+  display: flex;
+  justify-content: end;
+}
+.smoothie-green__text-three-secundario{
+  font-size: 9px;
+  width: 35% ;
+  
+}
+.smoothie-green__box-two{
+  
+  background-color: #b68e76;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.smoothie-green__box-two_text{
+  padding-top: 10px;
+}
+.smoothie-green__element-last{
+  width: 15%;
+  margin-top: 35%;
+  position: relative;
+  right: 29%;
+  margin-left: 10%;
+  font-size: 10px;
+  font-weight: 100;
+  
+  
 }
 
  /* seccion 5  */
@@ -182,12 +268,82 @@
   margin-top: 20px;
   height: 100vh;
   background-image: url(/img/fondo5.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
 }
+.sugar__element{
+
+  width: 40%;
+  height: 80%;
+  padding-left: 90px;
+  margin: 10%;
+}
+.sugar__texts{
+ width: 100%;
+ height: 100%;
+ 
+}
+.sugar_text-one{
+  font-size: 45px;
+  font-weight: 5;
+  width: 50%;
+  height: 20%;
+  
+ 
+}
+.sugar_text-two{
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+.sugar_text-three{
+  font-size: 20px;
+  font-weight: 100;
+  width: 50%;
+  margin-bottom: 10px;
+  
+}
+.sugar__butons{
+ display: flex;
+ flex-direction: column;
+}
+.sugar__button-one{
+  background-color: #b68e76;
+  border: none;
+  height: 30px ;
+  width: 20%;
+  border-radius: 20px 20px 20px 20px;
+  margin: 8px;
+  text-align: center;
+}
+
+.sugar__button-two{
+  background-color: #b68e76;
+  border: none;
+  height: 30px ;
+  width: 20%;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0px 10px 0px 10px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .chef__box{
   grid-area: chef;
   padding: 50px;
   margin-top: 20px;
   display: flex;
+  height: 100vh;
   
 }
