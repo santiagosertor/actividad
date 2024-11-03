@@ -1,0 +1,20 @@
+:root{
+   --color-orange: orange;
+   --color-white: white;
+   --color-black: #000;
+   --color-gris: #3e3e3e;
+   --color-gris-claro:#b8b8b8;
+   --color-naranja-claro: #d77b3b;
+   --color-whiter: #f9f9f9;
+   --color-whites:#f1f1f1;
+   --color-gris-clean: #b8b8b8;
+
+   /* flex agregados */
+   --align-items: center;
+   --flex-direction-column:column ;
+   --flex-direction-row: row;
+   --justify-content-center:center;
+   --justify-content-end:end;
+   --text-align: center;
+
+}
